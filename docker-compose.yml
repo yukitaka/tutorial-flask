@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    build: ./
+    volumes:
+      - ./:/app
+    working_dir: /app
+    ports:
+      - "8080:5000"
+    environment:
+      TZ: "Asia/Tokyo"
+      FLASK_APP: "flaskr"
+      FLASK_ENV: "development"
+    command: "flask run --host 0.0.0.0"
