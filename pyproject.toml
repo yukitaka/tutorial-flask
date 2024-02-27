@@ -1,17 +1,17 @@
 [tool.poetry]
 name = "flaskr"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Takayuki Sato <s.yukkiy@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-flask = "^2.3.2"
-pytest = "^7.3.1"
-coverage = "^7.2.5"
+flask = "^3.0.2"
+pytest = "^8.0.2"
+coverage = "^7.4.3"
 
 [tool.poetry.dev-dependencies]
-autopep8 = "^2.0.2"
+autopep8 = "^2.0.4"
 
 [tool.pytest]
 testpaths = "tests"
