@@ -2,11 +2,11 @@
 name = "flaskr"
 version = "0.1.2"
 description = ""
-authors = ["Takayuki Sato <s.yukkiy@gmail.com>"]
+authors = ["Sato Takayuki <s.yukkiy@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-flask = "^3.0.2"
+flask = "^3.0.3"
 pytest = "^8.0.2"
 coverage = "^7.4.3"
 
